@@ -1,0 +1,18 @@
+{
+  "name": "aoc2024",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "aoc-util": "^2.1.2",
+    "dotenv": "^16.4.5"
+  },
+  "scripts": {
+    "solve": "bun run ./solutions/level$level.ts --preload ./solutions/setup.ts"
+  }
+}
