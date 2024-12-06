@@ -13,6 +13,6 @@
     "dotenv": "^16.4.5"
   },
   "scripts": {
-    "solve": "bun run ./solutions/level$level.ts --preload ./solutions/setup.ts"
+    "solve": "bun run --watch ./solutions/level$level.ts --preload ./solutions/setup.ts"
   }
 }
