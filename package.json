@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "aoc-util": "^2.1.2",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "jimp": "^1.6.0"
   },
   "scripts": {
     "solve": "bun run --watch ./solutions/level$level.ts --preload ./solutions/setup.ts"
